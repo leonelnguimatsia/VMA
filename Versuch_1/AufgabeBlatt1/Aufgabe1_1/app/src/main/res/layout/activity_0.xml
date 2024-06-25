@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity0"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hier ist Main" />
+
+    <Button
+        android:id="@+id/button_Nguimatsia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="90dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Gehe zu Nguimatsia" />
+
+    <Button
+        android:id="@+id/button_Seibt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="90dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Gehe zu Seibt" />
+</LinearLayout>

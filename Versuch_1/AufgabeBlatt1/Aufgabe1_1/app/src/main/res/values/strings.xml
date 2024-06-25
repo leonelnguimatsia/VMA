@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Activities</string>
+    <string name="activity1_title">Activity Nguimatsia - VMA TH Köln</string>
+    <string name="activity2_title">Activity Seibt - VMA TH Köln</string>
+    <string name="Activity1">--- This is Activity Nguimatsia ---</string>
+    <string name="Activity2">--- This is Activity Seibt ---</string>
+    <string name="Switch1">Gehe zu Seibt</string>
+    <string name="Switch2">Gehe zu Nguimatsia</string>
+</resources>

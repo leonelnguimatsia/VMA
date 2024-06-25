@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Begrüßung_APP</string>
+    <string name="activity_title" >Begrüßung</string>
+    <string name="activity_salutation"> </string>
+    <string name="id_textView">Vorname, Nachname:</string>
+    <string name="id_text_begrüß">Begrüß mich</string>
+    <string name="menuItem_duzen">Duzen</string>
+    <string name="menuItem_siezen">Siezen</string>
+
+</resources>

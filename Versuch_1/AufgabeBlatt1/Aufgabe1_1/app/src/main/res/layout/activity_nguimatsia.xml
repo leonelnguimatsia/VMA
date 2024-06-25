@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:text="@string/Activity1"
+		android:textColor="#000000"
+		android:textSize="12pt" />
+
+	<TextView
+		android:id="@+id/textViewNguimatsia"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Hier ist Nguimatsia" />
+
+	<Button
+		android:id="@+id/switchActivity"
+		android:text="Gehe zu Seibt"
+		android:textSize="12pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:gravity="center_horizontal|bottom"
+		/>
+
+	<Button
+		android:id="@+id/button_Ngui_Zu_Main"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="5dp"
+		android:layout_marginRight="20dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:text="Gehe zu Main"
+		android:textSize="28dp" />
+
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="left"
+		android:src="@drawable/smiley1" />
+
+</LinearLayout>
